@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(1200deg, #f6d365, #fda085, #d88771);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/* body {
+    background-color: rgb(8, 148, 153);
+} */
+
+
+
+.imageBox {
+    background-image: url('bg.jpg');
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.whiteBox {
+    border: 3px rgb(2, 22, 9) solid;
+    display: inline-block;
+    height: 225px;
+    width: 225px;
+    margin: 10px;
+    background-color: white;
+}
+
+.hold {
+    border: 4px red solid;
+}
+
+.dashed {
+    /* background: rgba(68, 62, 148, 0.74); */
+    /* background: rgba(204, 17, 17, 0.74); */
+    background: rgb(98, 197, 202);
+    border-style: dashed;
+}
+
+.hide {
+    display: none;
+}
